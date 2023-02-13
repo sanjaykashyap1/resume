@@ -1,6 +1,6 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
 # Customize the look and feel of the application
 st.set_page_config(page_title="Sanjay Bhaskar Kashyap's Portfolio", page_icon=":mortar_board:", layout="wide")
@@ -12,8 +12,8 @@ Data Scientist | Business Analyst
 """, unsafe_allow_html=True)
 
 # Profile Image
-profile_image = plt.imread("C:/Users/19452/Desktop/ass1/WhatsApp Image 2023-02-07 at 11.05.00.jpeg")
-st.image(profile_image, use_column_width=False, caption="Profile Image")
+# profile_image = plt.imread("C:/Users/19452/Desktop/ass1/WhatsApp Image 2023-02-07 at 11.05.00.jpeg")
+# st.image(profile_image, use_column_width=False, caption="Profile Image")
 
 # Contact Information
 st.write("""
