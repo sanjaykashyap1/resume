@@ -105,5 +105,5 @@ st.write("""
 
 # Add a custom footer
 st.write("""
-### Thank you for visiting my portfolio!
+## Thank you for visiting my portfolio!
 """, unsafe_allow_html=True)
